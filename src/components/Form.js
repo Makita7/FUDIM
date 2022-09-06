@@ -1,20 +1,23 @@
 import emailjs from "emailjs-com";
+import {useRef} from 'react';
 
 function Form() {
+
+  const form = useRef();
   function SendMail(e) {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_mchbjmf",
-        "template_rxwngth",
-        e.target,
-        "user_oZ_tmvc63Sh8IiWm8"
+        "service_5hbf15l",
+        "template_kkqhl56",
+        form.current,
+        "DX16MZ5_aik04oM1_"
       )
       .then((res) => {
-        console.log(res);
+        console.log(res.text);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => console.log(err.text));
   }
 
   return (
@@ -26,7 +29,7 @@ function Form() {
         <div className="col-md-7 col-lg-8">
           <h4 className="text-6 contactosT text-center">Contactanos</h4>
           <hr className="line-3" />
-          <form className="p-4" onSubmit={SendMail}>
+          <form ref={form} className="p-4">
             <div className="row g-3">
               <div className="col-sm-6">
                 <input
@@ -66,7 +69,7 @@ function Form() {
               </div>
             </div>
             <div className="d.flex text-center">
-              <button type="submit" className="send-btn btn  mt-4 mandar">
+              <button onSubmit={SendMail} type="submit" className="send-btn btn  mt-4 mandar">
                 Mandar
               </button>
             </div>

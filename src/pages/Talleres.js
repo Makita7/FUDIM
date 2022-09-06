@@ -28,38 +28,34 @@ function Taller(){
 function Talleres() {
     return (
         <div className='container padTop subpages padBot main'>
-            <h3 className="subpagesh3">A tu Alcance</h3>
-            <p>Ut culpa qui ut culpa in. Id est officia dolor minim consequat mollit dolor et dolor pariatur. Quis ea consectetur nulla laborum laborum elit non. Voluptate enim culpa esse adipisicing occaecat ipsum consequat sit Lorem deserunt cillum cupidatat. Eiusmod anim pariatur tempor eu exercitation aliquip minim reprehenderit occaecat anim qui. Non est mollit excepteur adipisicing nulla laborum duis consectetur dolore aliquip minim aliquip culpa.</p>
+            <div className='mainpad'>
+                <h3 className="subpagesh3">A tu Alcance</h3>
+                <p>Talleres con temáticas específicas, de ayuda e interés general, los cuales son construidos sobre los principios y valores necesarios para fomentar gradualmente un cambio positivo en los distintos ámbitos de la sociedad. Buscan atender las necesidades apremiantes de este tiempo al ofrecer un espacio de capacitación y formación integral.</p>
 
-            <div className="row">
-                <div className="col ">
-                    <img alt='talleres' src={require('../img/img.png')}/>
-                </div>
+                <div className="row">
+                    <div className="col ">
+                        <img alt='talleres' src={require('../img/img.png')}/>
+                    </div>
 
-                <div className="col">
-                    <img alt='talleres' src={require('../img/img.png')}/>
+                    <div className="col">
+                        <img alt='talleres' src={require('../img/img.png')}/>
+                    </div>
+
+                    <div className="col">
+                        <img alt='talleres' src={require('../img/img.png')}/>
+                    </div>
                 </div>
-                
-                <div className="col">
-                    <img alt='talleres' src={require('../img/img.png')}/>
-                </div>
+                {/* Poner el proximo taller  y el link al formulario para poder inscribirse */}
+                <Taller/>
+
+                <Material
+                    title="Nombre Taller"
+                    description="Commodo fugiat do pariatur esse enim tempor voluptate ad occaecat magna proident tempor est laboris. Dolor irure eiusmod anim sunt. Mollit incididunt reprehenderit Lorem excepteur ullamco ullamco proident ea sit consequat velit. Id laboris et do proident mollit adipisicing do laborum commodo eu sint."
+                    link="https://www.youtube.com/"
+                    />
             </div>
-            {/* Poner el proximo taller  y el link al formulario para poder inscribirse */}
-            <Taller/>
-
-            <Material
-                title="Nombre Taller"
-                description="Commodo fugiat do pariatur esse enim tempor voluptate ad occaecat magna proident tempor est laboris. Dolor irure eiusmod anim sunt. Mollit incididunt reprehenderit Lorem excepteur ullamco ullamco proident ea sit consequat velit. Id laboris et do proident mollit adipisicing do laborum commodo eu sint."
-                link="https://www.youtube.com/"
-                />
-
-            <Material
-                title="Nombre Taller2"
-                description="Commodo fugiat do pariatur esse enim tempor voluptate ad occaecat magna proident tempor est laboris. Dolor irure eiusmod anim sunt. Mollit incididunt reprehenderit Lorem excepteur ullamco ullamco proident ea sit consequat velit. Id laboris et do proident mollit adipisicing do laborum commodo eu sint."
-                link="https://www.youtube.com/"
-                />
         </div>
-      );
-  }
-  
-  export default Talleres;
+    );
+}
+
+export default Talleres;

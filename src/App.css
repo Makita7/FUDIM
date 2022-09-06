@@ -12,6 +12,13 @@ h1, h2, h3, h4, h5{
     font-family: 'Roboto', sans-serif;
 }
 
+.link{
+    color: #994529;
+}
+.link:hover{
+    color: #ec7309;
+}
+
 /* HEADER */
 
 header{
@@ -69,6 +76,10 @@ header a{
     min-height: 10rem!important;
 }
 
+.mainpad{
+    margin: 2rem 0 !important;
+}
+
 h3{
     font-size: 1.75rem;
     color: #456043;
@@ -117,7 +128,7 @@ p{
 }
 
 .QuienBC{
-    background-image: url(http://localhost:3000/static/media/quienSomosBC.0317f20f02c1882fb8a5.png);
+    background-image: url(./img/quienSomosBC.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -219,9 +230,8 @@ p{
     border-radius: 25px 25px 0 0;
 }
 
-.spaceB{
-    margin-bottom: 6rem;
-    margin-top: 2rem;
+.fixContacts{
+    margin-top: -6rem;
 }
 
 .donatebox{
@@ -263,6 +273,15 @@ p{
     background-color: #F2F6E6;
 }
 
+.icon{
+    width: 2em !important;
+    height: 2em !important;
+}
+
+.icon:hover{
+    color: #1d8bc2;
+}
+
 .socialmedia{
     display: flex;
     color: #536771;
@@ -301,6 +320,10 @@ ul{
 .donate{
     max-width: 5rem;
     margin-top: 1rem;
+}
+
+a:hover{
+    color: black;
 }
 
 /* MATERIAL */

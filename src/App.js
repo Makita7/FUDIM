@@ -24,33 +24,19 @@ function App() {
   return (
     <div>
       <Router>
-
         <Header />
-
         <Routes>
-
           <Route path='/' element={<Inicio/>} />
-
           <Route path='/nuestrasactividades' element={<NuestrasActividades/>} />
-
           <Route path='/atualcance' element={<Talleres/>} />
-
           <Route path='/nosotros' element={<Nosotros/>} />
-
           <Route path='/escuela' element={<Escuelas/>} />
-
           <Route path='/somossuyas' element={<SomosSuyas/>} />
-
           <Route path='/mejoresdar' element={<MejorEsDar/>} />
-
           <Route path='/contactos' element={<Contacto/>} />
-
           <Route path='/error' element={<Error/>} />
-
         </Routes>
-
         <Footer />
-
       </Router>
     </div>
   );

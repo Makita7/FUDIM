@@ -5,7 +5,9 @@ function Contacto() {
     return (
         <div className="spaceB">
             <Form/>
-            <Donation/>
+            <div className='fixContacts'>
+                <Donation/>
+            </div>
         </div>
     );
 }
