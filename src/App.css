@@ -1,9 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,200;1,300;1,400;1,900&display=swap');
 /* font-family: 'Source Code Pro', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400&display=swap');
+/* font-family: 'Roboto', sans-serif; */
 
 body{
     font-family: 'Source Code Pro', monospace;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Roboto', sans-serif;
 }
 
 /* HEADER */
@@ -12,10 +18,14 @@ header{
     height: 7rem;
 }
 
+.banner{
+    width: 100%;
+}
+
 .logo{
     height: auto;
-    max-width: 8rem;
-    margin-top: -0.5rem;
+    max-width: 11rem;
+    margin-top: 0.5rem;
 }
 
 
@@ -23,9 +33,10 @@ header{
     list-style: none;
     display: flex;
     text-decoration: none;
-    color: #E18D01;
+    color: #214151;
     font-weight: 400;
     padding-top: 1rem;
+    font-size: 1.2rem;
 }
 
 header a{
@@ -36,6 +47,8 @@ header a{
     align-items: center;
     justify-content: center;
     padding: 0.5rem 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
 }
 
 .flexH{
@@ -70,8 +83,16 @@ h3{
 }
 
 .quienSomos{
-    width: 95%;
-    border-radius: 100px;
+    width: 40% !important;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 4rem !important;
+}
+
+.quienSomosP{
+    padding: 2rem;
 }
 
 p{
@@ -95,7 +116,21 @@ p{
     text-align: justify;
 }
 
+.QuienBC{
+    background-image: url(http://localhost:3000/static/media/quienSomosBC.0317f20f02c1882fb8a5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    margin: 3rem 0rem;
+}
+
+
 /* ACTIVITIES */
+.activitiesT{
+    color: #456043;
+}
+
 .activities img{
     width: 100%;
     float: right;
@@ -114,7 +149,7 @@ p{
     justify-self: end;
 }
 
-.activityImg{  
+.activityImg{
     opacity: 1;
     transition: 1s;
 }
@@ -169,13 +204,15 @@ p{
 
 .backgroundDonationTwo{
     min-height: 20rem;
-    background-color: #669141;
-    color: white;
+    background-color: #f8dc81;
+    color: #715a2a;
+    margin-top: -8rem;
 }
 
 .donMargin{
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: 1rem;
 }
 
 .pagesBanner{
@@ -189,9 +226,9 @@ p{
 
 .donatebox{
     height: auto;
-    max-width: 240px;
+    max-width: 20rem;
     margin-left: 10%;
-    margin-top: 2%;
+    margin-top: -3%;
 }
 
 .list{
@@ -200,12 +237,16 @@ p{
 
 .list a{
     text-decoration: none;
-    color: #b7ff77;
     font-weight: 400;
+    color: #715a2a;
+}
+
+.list li{
+    margin-top: -0.2rem;
 }
 
 .list a:hover{
-    color: #112400;
+    color: #715a2a;
 }
 
 /* A TU ALCANCE- TALLERES */
@@ -217,10 +258,14 @@ p{
 
 
 /* FOOTER */
+.footer{
+    padding: 1rem;
+    background-color: #F2F6E6;
+}
 
 .socialmedia{
     display: flex;
-    color: #E18D01;
+    color: #536771;
 }
 
 .socialmedia li{
@@ -230,12 +275,13 @@ p{
 }
 
 .socialmedia a{
-    color: #E18D01;
+    color: #536771;
 }
 
 .logoFooter{
-    max-width: 4rem;
+    max-width: 6rem;
     align-self: center;
+    margin-top: 0.7rem;
 }
 
 ul{

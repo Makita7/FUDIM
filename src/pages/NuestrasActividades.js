@@ -7,7 +7,6 @@ function Actividad(props) {
       <div className='col-3'>
           <img alt={props.actividad} src={props.img} className="activityImg" />
       </div>
-      
       <div className='col-9'>
           <h4>{props.actividad}</h4>
           <p>{props.descripcion}</p>
@@ -42,12 +41,12 @@ function NuestrasActividades() {
             to='/atualcance'
           />
 
-          <Actividad
+          {/* <Actividad
             actividad='Escuela: Mauricio Lopez'
             img={require('../img/cole.png')}
             descripcion='Minim laboris ex do irure amet nulla laboris non. Amet consectetur aute eu nulla aliquip ad. Amet sunt excepteur nostrud tempor mollit laboris. Anim commodo officia excepteur laboris do ea. Minim enim cupidatat ea deserunt mollit exercitation elit quis. Nulla adipisicing tempor laborum enim eu enim.'
             to='/escuela'
-          />
+          /> */}
 
           <Actividad
             actividad='Mejor es Dar'
