@@ -28,11 +28,15 @@ h1, h2, h3, h4, h5{
 }
 
 .small{
-    display: none;
+    display: none !important;
 }
 
-.big{
+.bigScreen{
     display: revert;
+}
+
+.cellAppear{
+    display: none;
 }
 
 /* HEADER */
@@ -414,7 +418,7 @@ a:hover{
     .small{
         display: revert !important;
     }
-    .big{
+    .bigScreen{
         display: none;
     }
     .main{
@@ -427,7 +431,10 @@ a:hover{
         margin-top: -5rem;
     }
     .mainTwo{
-        min-height: 50rem!important;
+        min-height: 80vh !important;
+    }
+    .colAdjustFull{
+        width: 100% !important;
     }
 }
 
@@ -440,7 +447,70 @@ a:hover{
 
 /* CELLPHONE */
 @media (max-width: 480px){
-    .hi{
-        text-align: center;
+    .cellDisappear{
+        display: none;
+    }
+    .cellAppear{
+        display: revert;
+    }
+    .logo{
+        max-width: 7rem;
+        margin-left: 1rem;
+    }
+    .menu{
+        margin-top: 1rem;
+        float: right;
+        margin-right: 1rem;
+    }
+    .quienSomos{
+        width: 95% !important;
+        margin-top: 5rem !important;
+        border-radius: 0;
+    }
+    .bannerSmall{
+        width: 120%;
+        margin-left: -4rem;
+    }
+    .activityW {
+        padding-left: 5%!important;
+        width: 95%!important;
+        margin-left: 0%!important;
+    }
+    .QuienBC{
+        background-position: center;
+    }
+    .donatebox {
+        height: auto;
+        max-width: 11rem;
+        margin-left: auto;
+        margin-top: 0;
+        margin-right: auto;
+    }
+    .donMargin{
+        padding-bottom: 2.5rem;
+        margin-top: 4rem;
+    }
+    .svg{
+        width: 100%;
+    }
+    .colFix{
+        width: 30% !important;
+    }
+    .CellExtraPad{
+        margin-bottom: 4rem;
+    }
+    .line-3{
+        width: 70%;
+        margin-left: 15%;
+        z-index: -5;
+        position: relative;
+    }
+    .dropdown-menu {
+        --bs-dropdown-link-active-bg: #fda172 !important;
+        border-radius: 30px !important;
+        box-shadow: 5px 10px 20px #64595969;
+    }
+    .subpages {
+        max-width: 90%!important;
     }
 }

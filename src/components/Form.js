@@ -12,7 +12,7 @@ function Form() {
   }
 
   return (
-    <div className="container-fluid contacts padTop padBot">
+    <div className="container-fluid contacts padTop padBot CellExtraPad">
       <section
         id="contacts"
         className="row justify-content-center topSmall contacts Four"

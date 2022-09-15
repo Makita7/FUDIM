@@ -30,7 +30,7 @@ function Footer() {
                             <img className='donate' alt='donate button' src={Donate}/>
                         </Link>
                     </div>
-                    <div className="col-2 text-center">
+                    <div className="col-2 colFix text-center">
                         <Link to='/'>
                             <img className='logoFooter' alt='logo' src={Logo}/>
                         </Link>

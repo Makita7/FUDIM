@@ -1,26 +1,7 @@
-import { Link } from 'react-router-dom';
 import Logo from '../img/logo.png';
-
-const Nav = () => {
-    const NavElement = (props) => {
-        return(
-            <Link to={props.to}>
-                <li className='navElement'>
-                    {props.name}
-                </li>
-            </Link>
-        );
-    }
-
-    return(
-        <ul className='flexH right padR'>
-            <NavElement to="/" name="Inicio" />
-            <NavElement to="/nosotros" name="Nosotros" />
-            <NavElement to="/nuestrasactividades" name="Nuestras Actividades" />
-            <NavElement to="/contactos" name="Contactos" />
-        </ul>
-    );
-}
+import { Link } from 'react-router-dom';
+import BurgerNav from './BurgerNav';
+import Nav from './Nav';
 
 
 function Header() {
@@ -34,8 +15,8 @@ function Header() {
 
                 <div className='col-9  padTop'>
                     <Nav/>
+                    <BurgerNav/>
                 </div>
-
         </header>
     );
 }

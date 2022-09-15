@@ -2,7 +2,7 @@ import Material from '../components/Material';
 
 function SomosSuyas() {
     return (
-        <div className='container padTop subpages padBot main'>
+        <div className='container padTop subpages padBot main mainTwo'>
             <div className='mainpad'>
                 <h3 className="subpagesh3 padTop">Somos Suyas</h3>
                 <img alt='banner' className='img-fluid pagesBanner' src={require('../img/bannerSomosSuyas.png')}/>

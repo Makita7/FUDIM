@@ -49,16 +49,17 @@ function Talleres() {
 
                 <div className="row">
                     <div className="col">
-                        <img className='full' alt='talleres' src={require('../img/talleres1.png')}/>
+                        <img className='full cellDisappear' alt='talleres' src={require('../img/talleres1.png')}/>
                     </div>
 
                     <div className="col">
-                        <img className='full' alt='talleres' src={require('../img/talleres2.png')}/>
+                        <img className='full cellDisappear' alt='talleres' src={require('../img/talleres2.png')}/>
                     </div>
 
                     <div className="col">
-                        <img className='full' alt='talleres' src={require('../img/talleres3.png')}/>
+                        <img className='full cellDisappear' alt='talleres' src={require('../img/talleres3.png')}/>
                     </div>
+                    <img className='cellAppear' alt='talleres' src={require('../img/tallerCell.png')} />
                 </div>
                 {/* Poner el proximo taller  y el link al formulario para poder inscribirse */}
                 <Taller/>

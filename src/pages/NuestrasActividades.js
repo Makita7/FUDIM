@@ -5,14 +5,14 @@ function Actividad(props) {
     <div className='row padTop'>
 
       <img alt='mas info' src={props.imgSmall} className="small padBot"/>
-      <div className='col-3 big'>
+      <div className='col-3 bigScreen'>
           <img alt={props.actividad} src={props.img} className="activityImg" />
       </div>
-      <div className='col-9 col-md-12'>
+      <div className='col-9 colAdjustFull'>
           <h4>{props.actividad}</h4>
           <p>{props.descripcion}</p>
           <Link to={props.to}>
-            <img className='moreInfo big' alt='mas info' src={require('../img/mas_info.png')}/>
+            <img className='moreInfo' alt='mas info' src={require('../img/mas_info.png')}/>
           </Link>
       </div>
 
