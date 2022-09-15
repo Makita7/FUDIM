@@ -25,7 +25,7 @@ const Nav = () => {
 
 function Header() {
     return (
-        <header className='flexH'>
+        <header className='flexH sticky'>
                 <div className="col-3 padL">
                     <Link className='logo'  to='/'>
                         <img className='logo' alt='logo' src={Logo}/>

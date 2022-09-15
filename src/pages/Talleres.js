@@ -2,24 +2,39 @@ import Material from '../components/Material';
 
 function Taller(){
     return(
-        <div className='container padTop subpages padBot main'>
+        <div className='container padTop padBot main'>
             <h3 className="subpagesh3 padTop">Próximo Taller</h3>
             <div className='row'>
-                <div className='col'>
-                    <h5 className='masinfoh5 text-right'>Nombre del Taller:</h5>
-                    <h5 className='masinfoh5 text-right'>Fecha:</h5>
-                    <h5 className='masinfoh5 text-right'>Dirección:</h5>
-                    <h5 className='masinfoh5 text-right'>Inscripción:</h5>
-                    <h5 className='masinfoh5 text-right'>Descripción:</h5>
-                </div>
-
-                <div className='col text-left'>
-                    <h5 className='masinfoh5'>Nutricion</h5>
-                    <h5 className='masinfoh5'>12 de Marzo 2022</h5>
-                    <h5 className='masinfoh5'>KATO Café</h5>
-                    <h5 className='masinfoh5'>link a form o evenbrite</h5>
-                    <h5 className='masinfoh5 justify'>Cillum cupidatat est id excepteur. Adipisicing id commodo in id incididunt dolor sint in excepteur sunt labore. Enim id veniam irure nostrud amet eiusmod do aliqua laboris. Occaecat ad amet Lorem commodo. Ex labore elit sunt labore officia cupidatat laborum deserunt veniam proident ex. Minim exercitation aliqua nostrud nulla id exercitation commodo cupidatat Lorem id elit nulla incididunt.</h5>
-                </div>
+                <table>
+                    <tr>
+                        <th className='text-right'>Nombre del Taller:</th>
+                        <td className=''>Sobreviviendo a la Crianza</td>
+                    </tr>
+                    <tr>
+                        <th className='text-right'>Fecha:</th>
+                        <td>29 de Octubre 2022</td>
+                    </tr>
+                    <tr>
+                        <th className='text-right'>Horario:</th>
+                        <td>17 hs</td>
+                    </tr>
+                    <tr>
+                        <th className='text-right'>Oradores:</th>
+                        <td>Dr. Diego Pizzi y Dra. Rosana Tagliaferro (médicos psiquiatras)</td>
+                    </tr>
+                    <tr>
+                        <th className='text-right'>Dirección:</th>
+                        <td>Belgrano 413, Ciudad Mendoza</td>
+                    </tr>
+                    <tr>
+                        <th className='text-right'>Inscripción:</th>
+                        <td><a className='link' href='https://docs.google.com/forms/d/e/1FAIpQLSdkQ0Yz73V5_foT1o3sm9Lp-qIDX-HukytfXpeo9T01zORmQQ/closedform'>Link</a></td>
+                    </tr>
+                    <tr>
+                        <th className='text-right'>Precio:</th>
+                        <td>1 Entrada $600 || 2 Entradas $1000</td>
+                    </tr>
+                </table>
             </div>
         </div>
     );
@@ -33,26 +48,27 @@ function Talleres() {
                 <p>Talleres con temáticas específicas, de ayuda e interés general, los cuales son construidos sobre los principios y valores necesarios para fomentar gradualmente un cambio positivo en los distintos ámbitos de la sociedad. Buscan atender las necesidades apremiantes de este tiempo al ofrecer un espacio de capacitación y formación integral.</p>
 
                 <div className="row">
-                    <div className="col ">
-                        <img alt='talleres' src={require('../img/img.png')}/>
+                    <div className="col">
+                        <img className='full' alt='talleres' src={require('../img/talleres1.png')}/>
                     </div>
 
                     <div className="col">
-                        <img alt='talleres' src={require('../img/img.png')}/>
+                        <img className='full' alt='talleres' src={require('../img/talleres2.png')}/>
                     </div>
 
                     <div className="col">
-                        <img alt='talleres' src={require('../img/img.png')}/>
+                        <img className='full' alt='talleres' src={require('../img/talleres3.png')}/>
                     </div>
                 </div>
                 {/* Poner el proximo taller  y el link al formulario para poder inscribirse */}
                 <Taller/>
 
-                <Material
+                {/* una vez que pase el taller subis el material */}
+                {/* <Material
                     title="Nombre Taller"
                     description="Commodo fugiat do pariatur esse enim tempor voluptate ad occaecat magna proident tempor est laboris. Dolor irure eiusmod anim sunt. Mollit incididunt reprehenderit Lorem excepteur ullamco ullamco proident ea sit consequat velit. Id laboris et do proident mollit adipisicing do laborum commodo eu sint."
                     link="https://www.youtube.com/"
-                    />
+                    /> */}
             </div>
         </div>
     );

@@ -1,23 +1,14 @@
-import emailjs from "emailjs-com";
-import {useRef} from 'react';
+import emailjs from "@emailjs/browser";
 
 function Form() {
 
-  const form = useRef();
   function SendMail(e) {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_5hbf15l",
-        "template_kkqhl56",
-        form.current,
-        "DX16MZ5_aik04oM1_"
-      )
+    emailjs.sendForm("service_5hbf15l", "template_kkqhl56", e.target, "DX16MZ5_aik04oM1_")
       .then((res) => {
-        console.log(res.text);
+        console.log(res);
       })
-      .catch((err) => console.log(err.text));
+      .catch((err) => console.log(err));
   }
 
   return (
@@ -29,7 +20,7 @@ function Form() {
         <div className="col-md-7 col-lg-8">
           <h4 className="text-6 contactosT text-center">Contactanos</h4>
           <hr className="line-3" />
-          <form ref={form} className="p-4">
+          <form onSubmit={SendMail} className="p-4">
             <div className="row g-3">
               <div className="col-sm-6">
                 <input
@@ -51,11 +42,11 @@ function Form() {
               </div>
               <div className="col-12">
                 <input
-                  type="email"
+                  type="email_client"
                   className="form-control"
-                  id="email"
+                  id="email_client"
                   placeholder="Mail"
-                  name="email"
+                  name="email_client"
                 />
               </div>
               <div className="col-12 message">
@@ -69,7 +60,7 @@ function Form() {
               </div>
             </div>
             <div className="d.flex text-center">
-              <button onSubmit={SendMail} type="submit" className="send-btn btn  mt-4 mandar">
+              <button type="submit" className="send-btn btn  mt-4 mandar">
                 Mandar
               </button>
             </div>

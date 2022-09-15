@@ -12,6 +12,14 @@ h1, h2, h3, h4, h5{
     font-family: 'Roboto', sans-serif;
 }
 
+.flex{
+    display: flex !important;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
 .link{
     color: #994529;
 }
@@ -23,6 +31,12 @@ h1, h2, h3, h4, h5{
 
 header{
     height: 7rem;
+    background-color: white;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
 }
 
 .banner{
@@ -99,7 +113,7 @@ h3{
     margin-left: auto;
     background-color: white;
     border-radius: 30px;
-    margin-top: 4rem !important;
+    margin-top: 8rem !important;
 }
 
 .quienSomosP{
@@ -265,7 +279,24 @@ p{
     text-align: justify;
 }
 
+.full{
+    width: 100%;
+}
 
+th{
+    padding-right: 1rem;
+}
+
+td{
+    width: 50%;
+}
+
+.social{
+    color: #536771;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+}
 
 /* FOOTER */
 .footer{
