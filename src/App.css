@@ -27,6 +27,14 @@ h1, h2, h3, h4, h5{
     color: #ec7309;
 }
 
+.small{
+    display: none;
+}
+
+.big{
+    display: revert;
+}
+
 /* HEADER */
 
 header{
@@ -376,4 +384,63 @@ a:hover{
 
 .mandar:hover{
     background-color: #e9ffb986 !important;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media (max-width: 850px){
+    .navElement{
+        font-size: 1rem;
+    }
+    .padR {
+        padding-right: 1rem;
+    }
+    .logo{
+        max-width: 10rem;
+    }
+    .quienSomos {
+        width: 60% !important;
+    }
+    footer .icon{
+        margin-left: 2rem !important;
+    }
+    .small{
+        display: revert !important;
+    }
+    .big{
+        display: none;
+    }
+    .main{
+        min-height: 30rem!important;
+    }
+    .backgroundDonationTwo{
+        min-height: 20rem;
+        background-color: #f8dc81;
+        color: #715a2a;
+        margin-top: -5rem;
+    }
+    .mainTwo{
+        min-height: 50rem!important;
+    }
+}
+
+
+
+
+
+
+
+
+/* CELLPHONE */
+@media (max-width: 480px){
+    .hi{
+        text-align: center;
+    }
 }
