@@ -398,6 +398,16 @@ a:hover{
 
 /* MEDIA QUERIES */
 
+/* BIG SCREEN */
+@media (min-width: 1025px){
+    .mainLarge{
+        min-height: 42rem;
+    }
+}
+
+
+
+
 /* TABLET */
 @media (max-width: 850px){
     .navElement{

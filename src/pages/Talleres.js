@@ -28,7 +28,7 @@ function Taller(){
                     </tr>
                     <tr>
                         <th className='text-right'>Inscripción:</th>
-                        <td><a className='link' href='https://docs.google.com/forms/d/e/1FAIpQLSdkQ0Yz73V5_foT1o3sm9Lp-qIDX-HukytfXpeo9T01zORmQQ/closedform'>Link</a></td>
+                        <td><a className='link' href='https://forms.gle/zLd9mSC1g4ZwoR9g7'>Link</a></td>
                     </tr>
                     <tr>
                         <th className='text-right'>Precio:</th>
