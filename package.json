@@ -1,5 +1,7 @@
 {
   "name": "fudim",
+  "homepage": "http://fudim.me",
+  "description": "Somos una organización sin fines de lucro que busca promover y perfeccionar la educación para mejorar el nivel sociocultural de la sociedad",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
