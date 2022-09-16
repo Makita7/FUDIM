@@ -390,7 +390,10 @@ a:hover{
     background-color: #e9ffb986 !important;
 }
 
-
+.sizeFix {
+    font-size: 3rem;
+    margin-bottom: -1rem;
+}
 
 
 
@@ -445,6 +448,10 @@ a:hover{
     }
     .colAdjustFull{
         width: 100% !important;
+    }
+    .sizeFix {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -522,5 +529,8 @@ a:hover{
     }
     .subpages {
         max-width: 90%!important;
+    }
+    .sizeFix {
+        margin-bottom: 0rem;
     }
 }

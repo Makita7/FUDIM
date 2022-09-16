@@ -3,7 +3,7 @@ import Form from '../components/Form';
 
 function Contacto() {
     return (
-        <div className="spaceB">
+        <div className="spaceB mainTwo">
             <Form/>
             <div className='fixContacts'>
                 <Donation/>
