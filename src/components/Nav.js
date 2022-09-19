@@ -14,7 +14,7 @@ const Nav = () => {
     return(
         <ul className='flexH right padR cellDisappear'>
             <NavElement to="/" name="Inicio" />
-            <NavElement to="/nosotros" name="Nosotros" />
+            <NavElement to="/nosotros" name="Quiénes Somos" />
             <NavElement to="/nuestrasactividades" name="Nuestras Actividades" />
             <NavElement to="/contactos" name="Contactos" />
         </ul>

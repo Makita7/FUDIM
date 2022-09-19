@@ -21,7 +21,7 @@ function BurgerNav() {
         </NavDropdown.Item>
 
         <NavDropdown.Item eventKey="4.2">
-            <NavElement to="/nosotros" name="Nosotros" />
+            <NavElement to="/nosotros" name="Quiénes Somos" />
         </NavDropdown.Item>
 
         <NavDropdown.Item eventKey="4.3">
