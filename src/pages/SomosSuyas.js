@@ -31,7 +31,7 @@ function SomosSuyas() {
                     </div>
 
                     <div className='col text-left'>
-                        <h5 className='masinfoh5'>17 Septiembre 2022</h5>
+                        <h5 className='masinfoh5'>17 Junio 2023</h5>
                         <h5 className='masinfoh5'>KATO Café</h5>
                         <h5 className='masinfoh5'><a className='link' href='+54 9 2616 96-8769'>+54 9 2616 96-8769</a></h5>
                     </div>

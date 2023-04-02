@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5{
     font-family: 'Roboto', sans-serif;
 }
 
+.uppercase{
+    text-transform: uppercase;
+}
+
 .flex{
     display: flex !important;
 }
