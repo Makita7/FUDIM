@@ -1,4 +1,4 @@
-import Material from '../components/Material';
+
 
 function Taller(){
     return(
