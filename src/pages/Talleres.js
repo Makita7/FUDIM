@@ -12,15 +12,15 @@ function Taller(){
                     </tr>
                     <tr>
                         <th className='text-right'>Fecha:</th>
-                        <td>29 de Octubre 2022</td>
+                        <td>13 de Mayo 2023</td>
                     </tr>
                     <tr>
                         <th className='text-right'>Horario:</th>
-                        <td>17 hs</td>
+                        <td>17 a 19 hs</td>
                     </tr>
                     <tr>
                         <th className='text-right'>Oradores:</th>
-                        <td>Dr. Diego Pizzi y Dra. Rosana Tagliaferro (médicos psiquiatras)</td>
+                        <td>-</td>
                     </tr>
                     <tr>
                         <th className='text-right'>Dirección:</th>
@@ -28,11 +28,13 @@ function Taller(){
                     </tr>
                     <tr>
                         <th className='text-right'>Inscripción:</th>
-                        <td><a className='link' href='https://forms.gle/zLd9mSC1g4ZwoR9g7'>Link</a></td>
+                        {/* <td><a className='link' href=''>Link</a></td> */}
+                        <td>Proximamente</td>
                     </tr>
                     <tr>
                         <th className='text-right'>Precio:</th>
-                        <td>1 Entrada $600 || 2 Entradas $1000</td>
+                        <td>-</td>
+                        {/* <td>1 Entrada $600 || 2 Entradas $1000</td> */}
                     </tr>
                 </table>
             </div>
