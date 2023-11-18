@@ -44,13 +44,14 @@ function NuestrasActividades() {
             imgSmall={require('../img/alcanceSmall.png')}
           />
 
-          {/* <Actividad
+          <Actividad
             actividad='Escuela: Mauricio Lopez'
             img={require('../img/cole.png')}
-            descripcion='Minim laboris ex do irure amet nulla laboris non. Amet consectetur aute eu nulla aliquip ad. Amet sunt excepteur nostrud tempor mollit laboris. Anim commodo officia excepteur laboris do ea. Minim enim cupidatat ea deserunt mollit exercitation elit quis. Nulla adipisicing tempor laborum enim eu enim.'
+            descripcion='Proyecto de Escuela que buscará promover una educación con valores cristianos para un desarrollo integral que potencie las capacidades y las inteligencias múltiples, por medio del compromiso activo de la institución, el estudiante y su familia.
+            Nuestro aporte para la educación de Mendoza, un espacio sano y seguro para el desarrollo de las nuevas generaciones. Una iniciativa que surgirá en etapas,  un Jardín Maternal con salas de 1 a 3 años será la primera.'
             to='/escuela'
             imgSmall={require('../img/coleSmall.png')}
-          /> */}
+          />
 
           <Actividad
             actividad='Mejor es Dar'
