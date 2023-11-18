@@ -25,6 +25,10 @@ function Donation() {
                     </div>
                 </div>
             </div>
+            <div className="placecenter flex align-center">
+                <img alt='banner' className=' mp img-fluid padBot' src={require('../img/mercadoPago.jpg')}/>
+                <p><b>Alias:</b> fudim.mp</p>
+            </div>
         </div>
     );
 }

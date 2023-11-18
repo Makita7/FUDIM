@@ -538,3 +538,17 @@ a:hover{
         margin-bottom: 0rem;
     }
 }
+
+
+
+.mp{
+    width:6%;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.placecenter{
+    place-content: center;
+}
